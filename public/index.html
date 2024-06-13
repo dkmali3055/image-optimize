@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload</title>
+</head>
+<body>
+  <div id="container">
+    <form action="/upload" method="post" id="form" enctype="multipart/form-data">
+      <input type="file" id="fileInput" name="imageInput" required>
+      <button type="submit" id="btn">Submit</button>
+    </form>
+    <a href="" download="image" id="download">
+      <img src="" alt="output picture" id="output">
+    </a>
+  </div>
+  <script src="browser.js"></script>
+</body>
+</html>
